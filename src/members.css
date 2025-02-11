@@ -40,7 +40,8 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
   
-  /* Special styling for President and Treasurer */
+  /* Special styling for President*/
+    /* will add more when positions are given out */
   a:first-of-type /* President */
      /* Treasurer */ {
     font-weight: bold;
