@@ -4,6 +4,8 @@ import peoplecoding from './peoplecoding.gif';
 import Navbar from './navbar';
 import './App.css';
 import Members from './members';
+import Events from './events';
+import Join from './join';
 
 function Home(){
   return(
@@ -28,6 +30,8 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path ="/members" element={<Members />} />
+            <Route path = "/events" element={<Events />} />
+            <Route path = "/join" element={<Join />} />
           </Routes>
         </Router>
       );

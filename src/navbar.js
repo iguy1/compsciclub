@@ -15,6 +15,12 @@ function Navbar() {
             <li>
                 <Link to="/members">Members</Link>
             </li>
+            <li>
+                <Link to="/events">Events</Link>
+            </li>
+            <li>
+                <Link to="/join">Join</Link>
+            </li>
         </ul>
         </div>
       </nav>

@@ -3,6 +3,7 @@ import React from 'react';
 function Members() {
     return(
         <div>
+            <br />
             <h1>Members List</h1>
             <a href="https://linkedin.com/in/david-thissen-777312307" target="_blank" rel="noopener noreferrer">President: David Thissen</a>
       <h3>Other Members</h3>
@@ -37,7 +38,7 @@ function Members() {
             <a href="https://linkedin.com/in/matthew-williams-323947210" target="_blank" rel="noopener noreferrer">Matthew Williams</a>
             <br />
             <br />
-            <a href="https://linkedin.com/in/nathan-graddon-650070277" target="_blank" rel="noopener noreferrer">Nathan Graddon</a>
+            <a href="https://linkedin.com/in/nathan-graddon-650070277" target="_blank" rel="noopener noreferrer">Treasurer: Nathan Graddon</a>
             <br />
             <br />
             <a href="https://linkedin.com/in/ryan-padrone-42a54a299" target="_blank" rel="noopener noreferrer">Ryan Padrone</a>
