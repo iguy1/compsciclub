@@ -1,0 +1,12 @@
+.Home {
+  text-align: center;
+}
+
+.Home img {
+  width: 100%;
+  height: auto;
+}
+
+.Home h1, .Home h3, .Home h4, .Home p, .Home h5 {
+  margin: 20px 0;
+}
