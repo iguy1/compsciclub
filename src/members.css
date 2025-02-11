@@ -48,6 +48,16 @@
     border-left: 4px solid #3498db;
     background-color: #f8f9fa;
   }
+  a:nth-of-type(2){
+    font-weight: bold;
+    border-left: 4px solid #3498db;
+    background-color: #f8f9fa;
+  }
+  a:nth-of-type(3){
+    font-weight: bold;
+    border-left: 4px solid #3498db;
+    background-color: #f8f9fa;
+  }
   
   /* Remove extra line breaks */
   br {
