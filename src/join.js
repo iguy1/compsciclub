@@ -2,7 +2,7 @@ import React from 'react';
 
 function Join() {
 return(
-    <div>
+    <div className = "main-content">
         <br />
         <h1>Join Us</h1>
         

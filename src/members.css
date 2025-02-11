@@ -1,0 +1,69 @@
+/* Container styling */
+.members-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  }
+  
+  .main-content {
+    padding-top: 60px; /* Adjust this value based on the height of your navbar */
+  }
+  /* Heading styles */
+  h1 {
+    color: #2c3e50;
+    border-bottom: 3px solid #3498db;
+    padding-bottom: 0.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  h3 {
+    color: #34495e;
+    margin: 2rem 0 1rem;
+  }
+  
+  /* Link styles */
+  a {
+    display: block;
+    color: #2980b9;
+    text-decoration: none;
+    padding: 0.75rem;
+    margin: 0.5rem 0;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+  }
+  
+  a:hover {
+    background-color: #f7f9fc;
+    color: #1a5f96;
+    transform: translateX(10px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Special styling for President and Treasurer */
+  a:first-of-type /* President */
+     /* Treasurer */ {
+    font-weight: bold;
+    border-left: 4px solid #3498db;
+    background-color: #f8f9fa;
+  }
+  
+  /* Remove extra line breaks */
+  br {
+    display: none;
+  }
+  
+  /* Responsive design */
+  @media (max-width: 600px) {
+    .members-container {
+      padding: 1rem;
+    }
+    
+    a {
+      padding: 0.5rem;
+    }
+    
+    h1 {
+      font-size: 1.5rem;
+    }
+  }

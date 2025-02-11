@@ -2,7 +2,7 @@ import React from 'react';
 
 function Events(){
     return(
-        <div>
+        <div className = "main-content">
             <br />
             <h1>Events</h1>
             <h3>Upcoming Events</h3>
