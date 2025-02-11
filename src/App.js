@@ -8,6 +8,7 @@ import Members from './members';
 function Home(){
   return(
   <div className="Home">
+    <br />
       <h1>Welcome to the Society For Professional Computing</h1>
       <img src={peoplecoding} alt="people coding" style ={ {width : "500px"}}/>
       <h3>We are a group of professionals dedicated to advancing the field of computing.</h3>

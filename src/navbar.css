@@ -44,7 +44,7 @@
     text-decoration: underline;
 }
 .navbar-links li a:visited {
-    color: green; 
+    color: blue; 
 }
 .navbar-toggle{
     display:none;
