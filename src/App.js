@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route,Navigate } from 'react-router-dom';
 import bluehen from './bluehen.gif';
 import Navbar from './navbar';
 import './App.css';
@@ -28,7 +28,8 @@ function App() {
         <Router>
           <Navbar />
           <Routes>
-            <Route path="/" element={<Home />} />
+            <Route path="/" element={<Navigate to="/compsciclub" />} />
+            <Route path="/compsciclub" element={<Home />} />
             <Route path ="/members" element={<Members />} />
             <Route path = "/events" element={<Events />} />
             <Route path = "/join" element={<Join />} />
