@@ -1,30 +1,46 @@
-
-
-//import React, {useState} from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import './navbar.css';
+import logo from './bluehenlogo.gif';
 
 function Navbar() {
-    return (
-      <nav className = "navbar">
-        <div className = "navbar-container">
-        <ul className = "navbar-links">
-          <li>
-            <Link to="/">Home</Link>
-          </li>
-            <li>
-                <Link to="/members">Members</Link>
-            </li>
-            <li>
-                <Link to="/events">Events</Link>
-            </li>
-            <li>
-                <Link to="/join">Join</Link>
-            </li>
-        </ul>
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggleNavbar = () => {
+    setIsOpen(!isOpen);
+  };
+
+  return (
+    <nav className="navbar">
+      <div className="navbar-container">
+        <div className="navbar-logo">
+        <Link to="/">
+            <img src={logo} alt="Logo" className="logo-image" sytle ={{width:"500px"}} />
+            <span className="logo-text"></span>
+          </Link>
         </div>
-      </nav>
-    );
-  }
-  
+        <div className={`navbar-links ${isOpen ? 'open' : ''}`}>
+          <ul>
+            <li>
+              <Link to="/" onClick={toggleNavbar}>Home</Link>
+            </li>
+            <li>
+              <Link to="/members" onClick={toggleNavbar}>Members</Link>
+            </li>
+            <li>
+              <Link to="/events" onClick={toggleNavbar}>Events</Link>
+            </li>
+            <li>
+              <Link to="/join" onClick={toggleNavbar}>Join</Link>
+            </li>
+          </ul>
+        </div>
+        <div className="navbar-toggle" onClick={toggleNavbar}>
+          <span className="navbar-toggle-icon">&#9776;</span>
+        </div>
+      </div>
+    </nav>
+  );
+}
+
 export default Navbar;
