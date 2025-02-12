@@ -16,7 +16,7 @@ function Home(){
       <h3>We are a group of professionals dedicated to advancing the field of computing.</h3>
       <h4>Join us in our mission to promote excellence in computer science.</h4>
       <p>The Society For Professional Computing at the University of Delaware aims to bring together a community of students who are enthusiastic about expanding their knowledge of computer science. Our goal is to advance professional growth, encourage collaboration, and support the sharing of knowledge in the domain of computer science. Our goal is to offer members avenues for networking, skill development, and insight into industry practices, equipping them to thrive as professionals in the constantly changing computing environment.</p>
-      <h5>Contact us for more information at udelcomputingsociety@gmail.com.</h5>
+      <h5>Contact us for more information at compsociety5@gmail.com.</h5>
     </div>
   );
 

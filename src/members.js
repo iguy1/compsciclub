@@ -10,7 +10,7 @@ function Members() {
             <a href="https://linkedin.com/in/nathan-graddon-650070277" target="_blank" rel="noopener noreferrer">Treasurer: Nathan Graddon</a>
 
 
-      <h3>Other Members</h3>
+      <h3>More Members</h3>
       <a href="https://linkedin.com/in/jacob-chacko-9967a12ab" target="_blank" rel="noopener noreferrer">Jacob Chacko</a>
      
       
