@@ -1,3 +1,4 @@
+![Screenshot 2025-02-28 193222](https://github.com/user-attachments/assets/8717eec2-4c74-4efc-9f50-54d1e37570e9)
 💻 Society for Professional Computing - Club Website
 📌 A React-based website for my school club, designed to enhance accessibility and engagement for members and prospective students.
 
